@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "img",
+			"path": "."
+		},
+		{
+			"name": "art-coffe",
+			"path": "../../../../../art-coffe"
+		},
+		{
+			"name": "scss",
+			"path": "../scss"
+		},
+		{
+			"name": "js",
+			"path": "../js"
+		}
+	],
+	"settings": {}
+}

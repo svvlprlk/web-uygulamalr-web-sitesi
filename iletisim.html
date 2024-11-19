@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Art And Coffe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Navbar Üst Bilgi -->
+<div class="top-bar bg-black text-white py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Sosyal Medya İkonları -->
+        <div class="social-icons">
+            Bizi Takip Edin: 
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <!-- Telefon Numarası -->
+        <div class="contact-info">
+            <i class="fas fa-phone-alt"></i> Bize Ulaşın: 05319475181
+        </div>
+    </div>
+</div>
+
+
+<!-- Ana Navbar Menüsü -->
+<nav class="navbar navbar-expand-lg bg-black navbar-dark">
+    <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">Art And Coffe</a>
+        
+        <!-- Menü Toggle Butonu (Mobil Görünüm İçin) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navbar Menüsü -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">Anasayfa</a></li>
+                <li class="nav-item"><a href="hakkimizda.html" class="nav-link">Hakkımızda</a></li>
+                <li class="nav-item"><a href="sube.html" class="nav-link">Şubelerimiz</a></li>
+                <li class="nav-item"><a href="urunler.html" class="nav-link">Ürünlerimiz</a></li>
+                <li class="nav-item"><a href="iletisim.html" class="nav-link">İletişim</a></li>
+                <li class="nav-item"><a href="kayit.html" class="nav-link">Kayıt Ol</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- İletişim Formu -->
+    <div class="container py-5">
+        <h2 class="text-center mb-5">Herhangi Bir Sorunuz Varsa Lütfen Bize Ulaşın</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Kullanıcı Adı:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Adınızı girin">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mesajınız:</label>
+                        <textarea class="form-control" id="message" rows="6" placeholder="Mesajınızı buraya yazın"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Mesaj Yolla</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- İletişim Bilgileri -->
+        <div class="row mt-5">
+            <div class="col-lg-4">
+                <h4>İletişim</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Ana Şubemiz: Kadıköy/Atatürk Caddesi/No:81</p>
+                <p><i class="fas fa-phone"></i> Bizi Arayın: 0531 345 6789</p>
+                <p><i class="fas fa-envelope"></i> Mail Adresi: info.artcoffe@example.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

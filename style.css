@@ -1,0 +1,595 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Üst Bilgi Stil Ayarları */
+.top-bar {
+    font-size: 14px;
+    border-bottom: 1px solid #555;
+}
+
+.social-icons a {
+    color: #b08968;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: #b08968;
+}
+
+
+.contact-info {
+    font-size: 14px;
+    color: #b08968;
+}
+
+/* Navbar Stil Ayarları */
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #b08968 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+
+.hero {
+    height: 100vh;
+    background-image: url('img/monolisnew.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+}
+
+.hero-content h2 {
+    font-size: 28px;
+}
+
+.about-experience {
+    
+        background-color: #cb935e;
+        color: #fff;
+        border-radius: 10px;
+        text-align: center;
+        padding: 40px;
+        width: 300px;
+        height: 300px; /* Yüksekliği arttırmak için ekledik */
+        margin-top: -15px; /* Kartı 20px aşağıya indirir */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 50px; /* Kartı 20px sağa kaydırır */
+        z-index: 2;
+    
+    
+}
+
+.img-fluid {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.vadidekizambak {
+    margin-top: -40px; /* "Vadideki Zambak" görselini 20px yukarı taşı */
+}
+
+.gorsel-sola {
+    margin-left: -20px; /* 320f533efe602f78ce5fdd8a628692ef.jpg görselini 15px sola kaydır */
+}
+
+
+.hakkimizda-metni {
+    transform: translateY(-150px); /* Metni 20px yukarı taşır */
+    position: relative; /* Konumlandırmayı etkili kılar */
+}
+
+    
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .col-lg-6 {
+        margin-bottom: 30px;
+    }
+}
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff; /* Başlık rengini beyaz yap */
+    background-color: #000; /* Arka plan rengini siyah yap */
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+.stat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px; /* Kart yüksekliği */
+    width: 100%; /* Kart genişliği tam olarak sütunun genişliği kadar */
+    padding: 20px;
+    margin: 0; /* Kartlar arasında boşluk kaldırıldı */
+    border: 2px solid #000; /* Kartlar arasında net bir ayrım için */
+    border-radius: 10px; /* Kenarları yuvarlak yapar */
+}
+
+.row.g-0 > .col-6 {
+    padding: 0; /* Yan yana kartların arasındaki boşluğu kaldırmak için */
+}
+
+.stat-card h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+.stat-card h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+ul li::before {
+    content: '✔';
+    margin-right: 10px;
+    color: #a87e56;
+}
+
+.btn-primary {
+    background-color: #a87e56;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #8e6944;
+}
+
+.card1-4{
+    background-color: #725024;
+}
+
+.card2-3{
+    background-color: #bd9566;
+}
+
+.heykel {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+/* Kahve Bölümü */
+.coffee-section {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.coffee-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.coffee-card:hover {
+    transform: translateY(-10px);
+}
+
+.coffee-image {
+    width: 100%;
+    height: 300px;
+    object-fit: contain; /* Görselin kesilmeden tam olarak sığmasını sağla */
+    object-position: center; /* Görselin ortalanmasını sağla */
+    display: block;
+    background-color: #000; /* Arka plan rengi, boş alan olursa */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.coffee-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.coffee-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.coffee-content p {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+/* Ürünler Bölümü */
+
+.products-section {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.product-card {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 2px solid #a87e56;
+}
+
+.product-content {
+    padding: 20px;
+}
+
+.product-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-content p {
+    font-size: 16px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #ccc;
+    margin-left: 10px;
+}
+
+
+/* Takım Üyeleri Bölümü */
+.team-section {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.team-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+}
+
+.team-image {
+    width: 100%;
+    height: 350px; /* Yüksekliği artırıldı */
+    object-fit: cover; /* Görselin tam olarak sığmasını sağlar */
+    object-position: center; /* Görseli ortalar */
+    border-radius: 10px; /* Hafif yuvarlatılmış köşeler */
+    margin-bottom: 20px;
+}
+
+.team-content h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.team-content p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: #a87e56;
+}
+
+/* Referanslar Bölümü */
+.testimonials {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.testimonial-card {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.testimonial-card h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.testimonial-card span {
+    font-size: 14px;
+    color: #a87e56;
+}
+
+/* Footer Bölümü */
+.footer {
+    background-color: #a87e56;
+    color: #e0e0e0;
+    padding: 60px 0;
+}
+
+.footer h4 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer p, .footer a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.social-icons a:hover {
+    color: #000;
+}
+
+.input-group {
+    display: flex;
+    margin-top: 20px;
+}
+
+.input-group input {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-group button {
+    border-radius: 0 5px 5px 0;
+    background-color: #60492c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #4d3b24;
+}
+
+/* Şube Sayfası Üst Kısım Stil */
+.sube-hero {
+    height: 70vh;
+    background-image: url('img/logoparmak.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 120px;
+}
+
+.sube-hero .text-center {
+    color: #a87e56;
+}
+
+.divider {
+    width: 100px;
+    height: 4px;
+    background-color: #a87e56;
+    margin: 20px auto;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #a87e56;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+/*hakkımızda ksımı */
+.hakkimizda-hero {
+    height: 100vh;
+    background-image: url('img/Hakkımızda.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 120px;
+}
+
+/* Minik Bir Hikaye Bölümü */
+.story-section {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.story-box {
+    background-color: #1c1c1c;
+    border: 2px solid #b08968;
+    border-radius: 10px;
+    max-width: 700px;
+    padding: 30px;
+}
+
+.story-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.story-box p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
